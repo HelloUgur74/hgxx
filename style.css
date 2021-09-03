@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+font-family: 'Ubuntu', sans-serif;
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'Fredoka One', cursive;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+a{
+    text-decoration: none;
+    color: #555;
+    font-family: 'Fredoka One', cursive;
+}
+p{
+    color: #555;
+    font-family: 'Fredoka One', cursive;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    font-family: 'Fredoka One', cursive;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    font-family: 'Fredoka One', cursive;
+}
+.btn{
+    display: inline-block;
+    background: #b2b2b2;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: 'Fredoka One', cursive;
+}
+.tn{
+    display: inline-block;
+    background: blue;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+}
+.service-desc h5{
+        font-size: 30px;
+        font-family: 'Fredoka One', cursive;
+}
+.section-heading h2{
+    font-size: 50px;
+    font-family: 'Fredoka One', cursive;
+}
+.contact-form{
+    width: 700px;
+    font-family: 'Fredoka One', cursive;
+}
+input,textarea{width: 100%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box; border-radius: 12px;}
+
+
+
+h4{
+            font-family: 'Fredoka One', cursive;
+}
+footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color: transparent;
+	color: white;
+	text-align: center;
+}
+.kredikartı{
+    width: 500px;
+    font-family: 'Fredoka One', cursive;
+}
+input,textarea{width: 100%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box; border-radius: 12px;}
+
+
+
+
+
+
+
+
